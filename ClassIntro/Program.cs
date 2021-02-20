@@ -9,17 +9,17 @@ namespace ClassIntro
             string adi = "Engin";
             int yas = 36;
 
-            Kurs kurs1 = new Kurs;  // tipi Kurs olan kurs1 değişkeni
+            Kurs kurs1 = new Kurs();  // tipi Kurs olan kurs1 değişkeni
             kurs1.KursAdi = "C#";
             kurs1.Egitmen = "Engin Demiroğ";
             kurs1.izlenmeOrani = 68;
 
-            Kurs kurs2 = new Kurs;  // tipi Kurs olan kurs1 değişkeni
+            Kurs kurs2 = new Kurs();  // tipi Kurs olan kurs1 değişkeni
             kurs2.KursAdi = "Java";
             kurs2.Egitmen = "Kerem";
             kurs2.izlenmeOrani = 64;
 
-            Kurs kurs3 = new Kurs;  // tipi Kurs olan kurs1 değişkeni
+            Kurs kurs3 = new Kurs();  // tipi Kurs olan kurs1 değişkeni
             kurs3.KursAdi = "Python";
             kurs3.Egitmen = "Berkay";
             kurs3.izlenmeOrani = 80;
