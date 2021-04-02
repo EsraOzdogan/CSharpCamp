@@ -28,7 +28,7 @@ namespace ValueandReferenceTypes
             //102 adres-sayilar2 = [100, 200, 300]- [999, 200,300]
 
             //  int,decimal ,float, double , bool =  deger tip (stack)
-            //array, class ,interface = referans tip (heap)
+            //  array, class ,interface = referans tip (heap)
         }
     }
 }
