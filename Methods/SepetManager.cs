@@ -8,14 +8,14 @@ namespace Methods
     {
         //naming convention
         //syntax
-        public void Ekle(Product urun)
+        public void Add(Product product)
         {
-            Console.WriteLine("Tebrikler. Sepete eklendi : " + urun.Adi);
+            Console.WriteLine("Tebrikler. Sepete eklendi : " + product.ProductName);
         }
 
-        public void Ekle2(string urunAdi, string aciklama, double fiyat, int stokAdedi)
+        public void Add2(string ProductName, string Description, double UnitPrice, int UnitsInStock)
         {
-            Console.WriteLine("Tebrikler. Sepete eklendi : " + urunAdi);
+            Console.WriteLine("Tebrikler. Sepete eklendi : " + ProductName);
         }
     }
 }

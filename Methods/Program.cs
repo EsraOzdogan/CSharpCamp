@@ -6,45 +6,45 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            string urunAdi = "Elma";
+            string urunAdi = "Apple";
             double fiyati = 15;
-            string aciklama = "Amasya elması";
+            string aciklama = "Amasya apple";
 
 
-            string[] meyveler = new string[] { "Elma", "Karpuz" };
+            string[] fruits = new string[] { "Apple", "Watermelon" };
 
-            Product urun1 = new Product();
-            urun1.Adi = "Elma";
-            urun1.Fiyati = 15;
-            urun1.Aciklama = "Amasya elması";
+            Product product1 = new Product();
+            product1.ProductName = "Apple";
+            product1.UnitPrice = 15;
+            product1.Description = "Amasya apple";
 
-            Product urun2 = new Product();
-            urun2.Adi = "Karpuz";
-            urun2.Fiyati = 80;
-            urun2.Aciklama = "Diyarbakır karpuzu";
+            Product product2 = new Product();
+            product2.ProductName = "Watermelon";
+            product2.UnitPrice = 80;
+            product2.Description = "Diyarbakır watermelon";
 
-            Product[] urunler = new Product[] { urun1, urun2 };
+            Product[] products = new Product[] { product1, product2 };
 
             //type-safe -- tip güvenli
-            foreach (var urun in urunler)   //2 kere dönücek 2 ürün var. urunler dizi, urun her bir elemanı tanımlamak için değişken
+            foreach (var product in products)   //2 kere dönücek 2 ürün var. urunler dizi, urun her bir elemanı tanımlamak için değişken
             {
-                Console.WriteLine(urun.Adi);
-                Console.WriteLine(urun.Fiyati);
-                Console.WriteLine(urun.Aciklama);
+                Console.WriteLine(product.ProductName);
+                Console.WriteLine(product.UnitPrice);
+                Console.WriteLine(product.Description);
                 Console.WriteLine("--------------------");
             }
 
-            Console.WriteLine("------------Metotlar---------------");
+            Console.WriteLine("------------Methods---------------");
             //instance - örnek
             //encapsulation
 
             SepetManager sepetManager = new SepetManager();
-            sepetManager.Ekle(urun1);
-            sepetManager.Ekle(urun2);
+            sepetManager.Add(product1);
+            sepetManager.Add(product2);
 
-            sepetManager.Ekle2("Armut", "Yeşil armut", 12, 10);    //encapsulation- ayrı ayrı yazılanların bir düzene girmesi
-            sepetManager.Ekle2("Elma", "Yeşil elma", 12, 9);
-            sepetManager.Ekle2("Karpuz", "Diyarbakır karpuzu", 12, 8);
+            sepetManager.Add2("Pear", "Green pear", 12, 10);    //encapsulation- ayrı ayrı yazılanların bir düzene girmesi
+            sepetManager.Add2("Apple", "Green apple", 12, 9);
+            sepetManager.Add2("Watermelon", "Diyarbakır watermelon", 12, 8);
 
 
         }

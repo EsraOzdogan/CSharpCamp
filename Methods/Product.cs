@@ -8,9 +8,9 @@ namespace Methods
     {
         //Property - özellik
         public int Id { get; set; }
-        public string Adi { get; set; }
-        public double Fiyati { get; set; }
-        public string Aciklama { get; set; }
-        public int StokAdedi { get; set; }
+        public string ProductName { get; set; }
+        public double UnitPrice { get; set; }
+        public string Description { get; set; }
+        public int UnitsInStock { get; set; }
     }
 }
