@@ -17,13 +17,22 @@ namespace OOP1
         {
             Console.WriteLine(product.ProductName + " updated.");
         }
-       /* public  void BiseyYap(int sayi)//100
-        {
-            sayi = 99;
-        }*/
+        /* public  void BiseyYap(int sayi)//100
+         {
+             sayi = 99;
+         }*/
 
         /*public int Topla(int sayi1, int sayi2)
         {
+           //var result = sayi1+ sayi2;
+           //return result;
+            return sayi1 + sayi2;
+        }
+        //default degerli,default değerler en sona yazılır
+        public int Topla(int sayi1, int sayi2=60)
+        {
+           //var result = sayi1+ sayi2;
+           //return result;
             return sayi1 + sayi2;
         }
         public void Topla2(int sayi1, int sayi2)
