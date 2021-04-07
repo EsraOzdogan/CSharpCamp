@@ -6,9 +6,9 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            string urunAdi = "Apple";
-            double fiyati = 15;
-            string aciklama = "Amasya apple";
+            string productName = "Apple";
+            double unitPrice = 15;
+            string description = "Amasya apple";
 
 
             string[] fruits = new string[] { "Apple", "Watermelon" };
