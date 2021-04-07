@@ -7,8 +7,8 @@ namespace KampIntro
         static void Main(string[] args)
         {
             string kategoriEtiketi = "Kategoriler";
-            int ogrenciSayisi = 32000;
-            double faizOrani = 1.45;  //ondalıklı sayı
+            //int ogrenciSayisi = 32000;
+            //double faizOrani = 1.45;  //ondalıklı sayı
             bool sistemeGirisYapmisMi = true;  //bool true/false   //burası veri kaynağı aslında
             double dolarDun = 7.55;
             double dolarBugun = 7.55;
@@ -30,7 +30,7 @@ namespace KampIntro
 
             if (sistemeGirisYapmisMi == true)
             {
-                Console.WriteLine("Kullanıcı ayaları butonu");
+                Console.WriteLine("Kullanıcı ayarları butonu");
             }
             else
             {
