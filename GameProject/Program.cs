@@ -26,7 +26,7 @@ namespace GameProject
             gameManager.Delete(game);
 
             CampaignManager campaignManager = new CampaignManager();
-            Campaign campaign = new Campaign {CampaignId  = 1, CampaignName = "Discount on game", CapmpaignDiscount = 25 };
+            Campaign campaign = new Campaign {CampaignId  = 1, CampaignName = "Discount on game", CampaignDiscount = 25 };
 
             campaignManager.Add(campaign);
             campaignManager.Update(campaign);

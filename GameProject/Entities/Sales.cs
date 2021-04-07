@@ -15,5 +15,6 @@ namespace GameProject.Entities
         {
             get; set;
         }
+        public double indirim { get; set; }
     }
 }

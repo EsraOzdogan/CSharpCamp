@@ -9,6 +9,6 @@ namespace GameProject.Entities
     {
         public int CampaignId { get; set; }
         public string CampaignName { get; set; }
-        public int CapmpaignDiscount { get; set; }
+        public int CampaignDiscount { get; set; }
     }
 }

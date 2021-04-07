@@ -10,7 +10,7 @@ namespace GameProject.Concrete
     {
         public void CampaignSale(Gamer gamer, Game game, Campaign campaign)
         {
-            Console.WriteLine("'" + gamer.FirstName + " " + gamer.LastName + "'" + " purchased the game named " + "'" + game.Name + "' with " + campaign.CapmpaignDiscount + " % discount");
+            Console.WriteLine("'" + gamer.FirstName + " " + gamer.LastName + "'" + " purchased the game named " + "'" + game.Name + "' with " +  game.UnitPrice * campaign.CampaignDiscount/100 + " % discount");
         }
         public void Sale(Gamer gamer , Game game)
         {
